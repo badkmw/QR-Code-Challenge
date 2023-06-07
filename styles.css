@@ -1,0 +1,117 @@
+/*made by badkmw*/
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background: hsl(212, 45%, 89%);
+  font-size: 15px;
+  width: 1440px;  
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
+}
+
+section {  
+  width: 100%;  
+  display: grid;
+  grid-template-columns: 330px;
+  justify-content: center;
+  align-items: center;  
+  height: 50rem;
+}
+
+.mid {  
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: space-around;
+  background: hsl(0, 0%, 100%);
+  border-radius: 15px;
+}
+
+.myBrand {
+  padding-left: 10px;
+  font-style: italic;
+  font-weight: 500; 
+  color: hsl(0, 0%, 100%);
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.myBrand:hover {
+color: hsl(218, 44%, 22%);
+transition: .3s ease-in-out;
+}
+
+.topHolder {
+  padding: 15px;
+  flex-grow: 1;
+
+}
+
+.topHolder img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.midHolder {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 250px;
+  justify-content: center;
+}
+
+.midHolder p {
+  font-weight: 700;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+  font-size: 1.2rem;
+}
+
+.bottomHolder {  
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 250px;
+  justify-content: center;
+  
+}
+
+.bottomHolder p {
+  font-weight: 400;
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+}
+
+
+
+
+
+@media (max-width: 576px) {
+  body {
+    width: 375px;
+  }
+
+  section {
+    height: 40rem;
+    width: 100%;    
+  }
+  
+}
