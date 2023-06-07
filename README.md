@@ -25,7 +25,7 @@ QR-Code Component mock up design in html and css challenge by Frontend Mentor.
 
 ### Links
 
-- Solution URL: [qr-code-1](https://replit.com/@badkmw/qr-code-1)
+- Solution URL: [qr-code-1](https://github.com/badkmw/QR-Code-Challenge.git)
 - Live Site URL: [replit.com](https://qr-code-1--badkmw.repl.co/)
 
 ## My process
